@@ -1,5 +1,17 @@
 # PHP 7.1
 
+[1. Nullable types](#nullable-types)
+
+[2. Iterable and Void Returns](#iterable-and-void-returns)
+
+[3. Multi-Catch Exception Handling](#multi-catch-exception-handling)
+
+[4. Chia mảng đối xứng](#chia-mảng-đối-xứng)
+
+[5. Keys Can Now Be Used in Lists](#keys-can-now-be-used-in-lists)
+
+[6. More Negative String Offsets](#more-negative-string-offsets)
+
 ## Nullable types
 
 có thể check null cho tham số truyền vào hoặc kết quả trả về
@@ -94,8 +106,6 @@ foreach ($data as ["id" => $id, "name" => $name]) {
     // logic here with $id and $name
 }
 ```
-
-
 
 ## More Negative String Offsets
 
